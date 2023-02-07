@@ -4,7 +4,7 @@ async function run() {
     const diff = process.env.INPUT_DIFF;
     const apiKey = process.env.INPUT_APIKEY;
 
-    console.log('diff: ', diff);')
+    console.log('diff: ', diff)
 
     const options = {
         url: 'https://api.openai.com/v1/completions',
